@@ -1,0 +1,39 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  width: 400px;
+}
+.sidebar .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  background: white;
+}
+.sidebar .bg .link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.sidebar .bg .link a {
+  font-size: 40px;
+}
+.sidebar button {
+  width: 50px;
+  height: 50px;
+  border-radius: fixed;
+  top: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}/*# sourceMappingURL=sidebar.css.map */
